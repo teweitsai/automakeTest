@@ -6,5 +6,8 @@ AC_CONFIG_FILES([
  Makefile
  src/Makefile
 ])
-AC_SUBST(prefix, "$AUTOMAKE_TEST_HOME")
+
+# Change the default installation directories (based on 'prefix')
+AC_SUBST(prefix, "${AUTOMAKE_TEST_HOME}")
+
 AC_OUTPUT

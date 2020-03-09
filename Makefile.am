@@ -1,7 +1,7 @@
 SUBDIRS = src
 dist_doc_DATA = README
 clean-all-local: maintainer-clean
-	-rm -f src/Makefile.in
+	-rm -f $(SUBDIRS)/Makefile.in
 	-rm -f $(top_srcdir)/Makefile.in
 	-rm -f $(top_srcdir)/configure
 	-rm -f $(top_srcdir)/aclocal.m4

@@ -2,6 +2,10 @@
 
 *This is a test of automake.*
 
+## Setup the Path Variable
+
+*Do `export AUTOMAKE_TEST_HOME=$path_to_this_module`.*
+
 ## Build the Executable
 
 *Do `autoreconf --install && ./configure && make`.*

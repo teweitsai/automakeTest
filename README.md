@@ -8,7 +8,7 @@
 
 ## Build the Executable
 
-*Do `autoreconf --install && ./configure && make`.*
+*Do `autoreconf --install && ./configure && make && make install`.*
 
 ## Clean All Built Files
 

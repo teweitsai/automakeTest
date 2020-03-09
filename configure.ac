@@ -6,4 +6,5 @@ AC_CONFIG_FILES([
  Makefile
  src/Makefile
 ])
+AC_SUBST(prefix, "$AUTOMAKE_TEST_HOME")
 AC_OUTPUT

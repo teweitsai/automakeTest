@@ -1,6 +1,5 @@
 SUBDIRS = src
-dist_doc_DATA = README
-clean-all-local: maintainer-clean
+clean-all-local: uninstall maintainer-clean
 	-rm -f $(SUBDIRS)/Makefile.in
 	-rm -f $(top_srcdir)/Makefile.in
 	-rm -f $(top_srcdir)/configure

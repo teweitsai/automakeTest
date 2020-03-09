@@ -7,7 +7,7 @@ AC_CONFIG_FILES([
  src/Makefile
 ])
 
-# Change the default installation directories (based on 'prefix')
-AC_SUBST(prefix, "${AUTOMAKE_TEST_HOME}")
+# Change the default installation executable directory
+AC_SUBST(bindir, "${AUTOMAKE_TEST_HOME}/bin")
 
 AC_OUTPUT

@@ -1,2 +1,3 @@
 bin_PROGRAMS = hello
-hello_SOURCES = main.c
+AM_CFLAGS = -I ../include
+hello_SOURCES = main.c test.c
